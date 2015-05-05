@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles/tablas.css">
+  <script src="scripts/tablas.js"></script>
+  <meta charset="UTF-8"/>
+  <title>Tablas de multiplicar</title>
+</head>
+<body>
+  <div id="container">
+    <h1>Ejercicios de tablas de multiplicar</h1>
+    <form>
+    ¿Hasta qué tabla quieres tener ejercicios?
+      <input type="number" id="maxTable" name="maxTable" value="1" min="1" max="10"/>
+      <input onclick="fill()" type="button" id="generate" value="Generar"/>
+    </form>
+    <div id="exercises"></div>
+  </div>
+</body>
+</html>

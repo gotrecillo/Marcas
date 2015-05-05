@@ -1,0 +1,20 @@
+body{
+  width: 100%;
+}
+
+#container{
+  width: 60%;
+  margin-left: 30%;
+}
+
+#maxTable{
+  width: 2.2em;
+}
+
+.solutions{
+  width: 2em;
+}
+
+img{
+	height: 1em;
+}
